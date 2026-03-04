@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>AutoPrime Dealers | Premium Cars</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0b0b0f;
+            color: #ffffff;
+        }
+        header {
+            background: linear-gradient(90deg, #111111, #1c1c24);
+            padding: 30px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        nav {
+            text-align: center;
+            padding: 15px;
+            background-color: #14141a;
+        }
+        nav a {
+            color: #c0c0c0;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 16px;
+        }
+        nav a:hover {
+            color: #ffffff;
+        }
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h2 {
+            border-bottom: 1px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        .card {
+            background-color: #14141a;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(255,255,255,0.05);
+            margin-bottom: 30px;
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 25px;
+            background: linear-gradient(90deg, #444, #888);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #111;
+            color: #777;
+            font-size: 14px;
+        }
+        .warranty-box {
+            background-color: #ffffff;
+            color: #000000;
+            padding: 40px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+        .print-btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #000;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    AUTOPRIME DEALERS
+</header>
+
+<nav>
+    <a href="#about">О компании</a>
+    <a href="#cars">Автомобили</a>
+    <a href="#warranty">Гарантия</a>
+    <a href="#contact">Контакты</a>
+</nav>
+
+<section id="about">
+    <h2>О компании</h2>
+    <div class="card">
+        AutoPrime Dealers — компания премиального сегмента, специализирующаяся на продаже проверенных автомобилей бизнес и люкс класса. 
+        Мы гарантируем качество, прозрачность сделки и высокий уровень сервиса.
+    </div>
+</section>
+
+<section id="cars">
+    <h2>Наши автомобили</h2>
+    <div class="card">
+        В наличии автомобили премиум-класса с полной проверкой истории и технического состояния. 
+        Индивидуальный подбор под каждого клиента.
+    </div>
+</section>
+
+<section id="warranty">
+    <h2>Гарантийный сертификат</h2>
+    <div class="card">
+        Каждый автомобиль AutoPrime Dealers сопровождается официальной гарантией.
+        
+        <div class="warranty-box">
+            <h3>ГАРАНТИЙНЫЙ СЕРТИФИКАТ</h3>
+            <p><strong>Компания:</strong> AutoPrime Dealers</p>
+            <p><strong>ФИО владельца:</strong> ___________________________</p>
+            <p><strong>Марка и модель:</strong> ___________________________</p>
+            <p><strong>VIN номер:</strong> ___________________________</p>
+            <p><strong>Дата продажи:</strong> ___________________________</p>
+            <p><strong>Срок гарантии:</strong> 12 месяцев или 20 000 км пробега</p>
+            <p>
+                Настоящий сертификат подтверждает гарантийные обязательства компании AutoPrime Dealers
+                на основные узлы и агрегаты автомобиля при соблюдении условий эксплуатации.
+            </p>
+            <p><strong>Подпись и печать:</strong> ___________________________</p>
+        </div>
+        
+        <button class="print-btn" onclick="window.print()">Распечатать гарантию</button>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Контакты</h2>
+    <div class="card">
+        Телефон: +7 (___) ___-__-__ <br>
+        Email: info@autoprimedealers.com <br>
+        Город: Казахстан
+    </div>
+</section>
+
+<footer>
+    © 2026 AutoPrime Dealers. All rights reserved.
+</footer>
+
+</body>
+</html>
